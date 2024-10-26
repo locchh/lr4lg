@@ -6,6 +6,8 @@ Language Recognition for Language Generation
 
 # references
 
+https://github.com/uwol/proleap-cobol-parser
+
 https://github.com/uwol/proleap-cobol
 
 https://github.com/cchipman21804/EnterpriseCOBOLv6.3
@@ -14,7 +16,7 @@ https://github.com/rishalab/COBREX-CLI
 
 https://github.com/Naxs-me/COSPEX
 
-https://github.com/Naxs-me/COSPEX
+https://github.com/antlr/grammars-v4
 
 https://github.com/openai/human-eval
 
