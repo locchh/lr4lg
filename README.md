@@ -6,8 +6,23 @@ Language Recognition for Language Generation
 
 # references
 
-https://github.com/huggingface/alignment-handbook/tree/main
+https://github.com/uwol/proleap-cobol
+
+https://github.com/cchipman21804/EnterpriseCOBOLv6.3
+
+https://github.com/rishalab/COBREX-CLI
+
+https://github.com/Naxs-me/COSPEX
+
+https://github.com/Naxs-me/COSPEX
 
 https://github.com/openai/human-eval
 
 https://github.com/zorse-project/COBOLEval
+
+https://github.com/opensourcecobol/opensource-cobol
+
+https://github.com/meta-llama/llama-recipes
+
+https://github.com/huggingface/alignment-handbook/tree/main
+
