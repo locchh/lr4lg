@@ -13,40 +13,6 @@ class CobolListener(ParseTreeListener):
         self.edges = []
         self.business_rules = {}
 
-    def find_parent(self, current_ctx, target_ctx):
-        """
-        Utility function to recursively find specific type of parent context.
-        """
-        p = current_ctx.parentCtx
-        if p is None:
-            return None
-        if isinstance(p,target_ctx):
-            return p
-        else:
-            return self.find_parent(p, target_ctx)
-
-    def find_child(self, ctx: ParserRuleContext, target_context_type: type) -> ParserRuleContext:
-        """
-        Utility function to recursively find the first child node of a given context type.
-    
-        :param ctx: The current parse tree node (context).
-        :param target_context_type: The type of the target context to find.
-        :return: The first child node of the target context type, or None if not found.
-        """
-        # Base case: if the current context is of the target type, return it
-        if isinstance(ctx, target_context_type):
-            return ctx
-    
-        # Recursively search in the children
-        for child in ctx.children:
-            if isinstance(child, ParserRuleContext):
-                result = self.find_child(child, target_context_type)
-                if result is not None:
-                    return result
-    
-        # If no matching child is found, return None
-        return None
-
     # Enter a parse tree produced by Cobol85Parser#procedureDivision.
     def enterProcedureDivision(self, ctx:Cobol85Parser.ProcedureDivisionContext):
         # Start processing procedure division for control flow

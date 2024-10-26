@@ -6,7 +6,7 @@ else:
     from Cobol85Parser import Cobol85Parser
 
 # This class defines a complete listener for a parse tree produced by Cobol85Parser.
-class CobolCFGListener(ParseTreeListener):
+class CobolListener(ParseTreeListener):
 
     def __init__(self):
         self.nodes = []
