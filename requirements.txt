@@ -1,4 +1,7 @@
+openai
 antlr4-tools
 antlr4-python3-runtime
-openai
+matplotlib
 graphviz # sudo apt-get install graphviz
+# sudo apt install pandoc
+# sudo apt install texlive-xetex
