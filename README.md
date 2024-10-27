@@ -6,24 +6,26 @@ Language Recognition for Language Generation
 
 # references
 
-https://github.com/uwol/proleap-cobol-parser
+[Project_CodeNet](https://github.com/IBM/Project_CodeNet)
 
-https://github.com/uwol/proleap-cobol
+[human-eval](https://github.com/openai/human-eval)
 
-https://github.com/cchipman21804/EnterpriseCOBOLv6.3
+[COBOLEval](https://github.com/zorse-project/COBOLEval)
 
-https://github.com/rishalab/COBREX-CLI
+[grammars-v4](https://github.com/antlr/grammars-v4)
 
-https://github.com/Naxs-me/COSPEX
+[proleap-cobol](https://github.com/uwol/proleap-cobol)
 
-https://github.com/antlr/grammars-v4
+[proleap-cobol-parser](https://github.com/uwol/proleap-cobol-parser)
 
-https://github.com/openai/human-eval
+[opensource-cobol](https://github.com/opensourcecobol/opensource-cobol)
 
-https://github.com/zorse-project/COBOLEval
+[EnterpriseCOBOLv6.3](https://github.com/cchipman21804/EnterpriseCOBOLv6.3)
 
-https://github.com/opensourcecobol/opensource-cobol
+[COSPEX](https://github.com/Naxs-me/COSPEX)
 
-https://github.com/meta-llama/llama-recipes
+[COBREX-CLI](https://github.com/rishalab/COBREX-CLI)
 
-https://github.com/huggingface/alignment-handbook/tree/main
+[llama-recipes](https://github.com/meta-llama/llama-recipes)
+
+[alignment-handbook](https://github.com/huggingface/alignment-handbook/tree/main)
