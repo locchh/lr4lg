@@ -12,6 +12,8 @@ Language Recognition for Language Generation
 
 # references
 
+https://build.nvidia.com/meta/llama-3.2-3b-instruct
+
 [Project_CodeNet](https://github.com/IBM/Project_CodeNet)
 
 [human-eval](https://github.com/openai/human-eval)
